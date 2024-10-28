@@ -1,0 +1,49 @@
+/* styles.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #121212; /* Fundo escuro para um visual futurista */
+    color: #fff; /* Texto branco para contraste */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  header {
+    background-color: #282828;
+    padding: 2rem;
+    text-align: center;
+    background-image: url('lacos.jpeg'); /* Adiciona o fundo com laços */
+    background-repeat: repeat;
+    background-size: cover; /* Ajusta o tamanho do fundo para cobrir todo o espaço */
+  }
+  
+  main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  button {
+    background-color: #ff0080; /* Cor vibrante e futurista */
+    color: #fff;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #ff5733;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  footer {
+    background-color: #282828;
+    padding: 1rem;
+    text-align: center;
+  }
